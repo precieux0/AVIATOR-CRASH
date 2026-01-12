@@ -1,0 +1,22 @@
+{
+  "start": "Welcome to Aviator predict Vector! Use /verify to authenticate your Telegram account, /contact_admin to contact admin, or /help for commands.",
+  "ask_phone": "Please send your phone number in international format (e.g. +33612345678).",
+  "ask_code": "I sent a code to {phone}. Please send the code here.",
+  "ask_2fa": "Two-factor authentication is enabled. Please send your 2FA password.",
+  "verified": "✅ Your account is verified.",
+  "contact_sent": "Your message has been sent to the admin.",
+  "help": "Commands: /verify - verify your account, /contact_admin [message] - contact admin, /predict [site] - get a prediction, /subscribe - receive signals, /unsubscribe - stop signals, /help - show this help.",
+  "error": "An error occurred: {msg}",
+  "predict_result": "Prediction for {site}: odds={odds} (confidence {confidence}%).",
+  "subscribed": "✅ You are now subscribed to signals.",
+  "unsubscribed": "You have been unsubscribed.",
+  "already_subscribed": "You are already subscribed.",
+  "not_subscribed": "You were not subscribed.",
+  "signal_alert": "🔔 Signal: {site} - estimated odds: {odds} (confidence {confidence}%)",
+  "choose_site": "Choose a site for prediction:",
+  "enter_link": "Send the site URL (starting with http...) to get a prediction.",
+  "unknown_cmd": "Unknown command. Use /help for the list of commands.",
+  "collected": "Collected observations for {count} sites.",
+  "stats_empty": "No observations in the last 24h.",
+  "stats_result": "Observations (last 24h):"
+}

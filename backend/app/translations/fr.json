@@ -1,0 +1,22 @@
+{
+  "start": "Bienvenue sur Aviator predict Vector ! Utilise /verify pour authentifier ton compte Telegram, /contact_admin pour contacter l'admin, ou /help pour les commandes.",
+  "ask_phone": "Envoie ton numéro de téléphone au format international (ex: +33612345678).",
+  "ask_code": "Un code a été envoyé à {phone}. Envoie-le ici.",
+  "ask_2fa": "L'authentification à deux facteurs est activée pour ton compte. Envoie ton mot de passe 2FA.",
+  "verified": "✅ Ton compte est vérifié.",
+  "contact_sent": "Ton message a été envoyé à l'admin.",
+  "help": "Commandes : /verify - vérifier ton compte, /contact_admin [message] - contacter l'admin, /predict [site] - obtenir une prédiction, /subscribe - recevoir des signaux, /unsubscribe - arrêter les signaux, /help - afficher l'aide.",
+  "error": "Une erreur est survenue : {msg}",
+  "predict_result": "Prédiction pour {site}: cote={odds} (confiance {confidence}%).",
+  "subscribed": "Tu es désormais abonné(e) aux signaux.",
+  "unsubscribed": "Tu n'es plus abonné(e).",
+  "already_subscribed": "Tu es déjà abonné(e).",
+  "not_subscribed": "Tu n'étais pas abonné(e).",
+  "signal_alert": "🔔 Signal: {site} - cote estimée: {odds} (confiance {confidence}%)",
+  "choose_site": "Choisis un site pour la prédiction :",
+  "enter_link": "Envoie le lien du site (commençant par http...) pour obtenir une prédiction.",
+  "unknown_cmd": "Commande inconnue. Utilise /help pour la liste des commandes.",
+  "collected": "Observations collectées pour {count} sites.",
+  "stats_empty": "Aucune observation lors des dernières 24h.",
+  "stats_result": "Observations (24h):"
+}  

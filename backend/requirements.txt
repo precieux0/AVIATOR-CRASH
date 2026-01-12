@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+python-telegram-bot==20.3
+telethon==1.32.0
+SQLAlchemy[aio]
+aiosqlite
+python-dotenv
+pydantic
+requests
+httpx
+beautifulsoup4
+pandas
+scikit-learn
+pytest
+joblib

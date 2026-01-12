@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: aviator-crash
+    runtime: docker
+    branch: main
+    plan: free
+    autoDeploy: true
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: BOT_TOKEN
+        value: ""
+      - key: API_ID
+        value: ""
+      - key: API_HASH
+        value: ""
+      - key: ADMIN_USERNAME
+        value: "@bestiemondia426"
+      - key: PREDICTION_INTERVAL
+        value: "300"
+      - key: DEFAULT_LANG
+        value: "fr"
+      - key: BOT_NAME
+        value: "Aviator predict Vector"
+      - key: WEBHOOK_BASE_URL
+        value: "https://your-service.onrender.com"
+    healthCheckPath: /healthz
