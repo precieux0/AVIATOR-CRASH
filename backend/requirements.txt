@@ -13,3 +13,4 @@ pandas
 scikit-learn
 pytest
 joblib
+pydantic-settings  # <-- AJOUTE CETTE LIGNE
