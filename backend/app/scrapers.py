@@ -23,8 +23,8 @@ SITE_PATTERNS = {
     'Bet9ja': ['bet9ja.com'],
     'Unibet': ['unibet.com'],
     'William Hill': ['williamhill.com'],
-    'Betclic': ['betclic.com'],
-    'Parimatch': ['parimatch.com'],
+    'Betclic': ['m.betclic.com'],
+    'Parimatch': ['global.parimatch.com'],
     'Betsafe': ['betsafe.com'],
     'Betfred': ['betfred.com'],
     'MozzartBet': ['mozzartbet.com']
@@ -219,3 +219,4 @@ async def get_latest_odds(site_or_url: Optional[str]) -> Dict[str, Any]:
             data = await get_site_odds_by_url(url)
             return {'site': site_or_url, 'odds': data.get('odds', []), 'raw': data.get('raw_text_sample')}
         return {'site': site_or_url, 'odds': []}
+
