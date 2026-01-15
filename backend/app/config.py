@@ -1,4 +1,4 @@
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
     BOT_TOKEN: str
@@ -18,7 +18,8 @@ class Settings(BaseSettings):
     DATABASE_URL: str = "sqlite+aiosqlite:///./data/app.db"
     SECRET_KEY: str = ""
 
-    class Config:
-        env_file = "../.env"
+    # Supprime la classe Config qui charge le .env
+    # class Config:
+    #     env_file = "../.env"
 
 settings = Settings()
